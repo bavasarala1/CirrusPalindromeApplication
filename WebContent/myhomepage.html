@@ -5,24 +5,25 @@
 <title>Largest Palindrome Finder!!!</title>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular-route.js"></script>
-<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/palindrome.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/Palindrome.css">
 </head>
 <body ng-app="palindrome">
 <div id="page">
+<div class="col-md-12">
 	<header class="container">
 		<div id="menu" class="navbar navbar-default">
 					<div class="navbar-header">
-							<h1><a href="myhomepage.html">Largest Palindorme Finder</a></h1>
+							<h1><a href="#myhomepage">Largest Palindorme Finder</a></h1>
 					</div>
 					<ul class="nav navbar-nav navbar-right">
-					<li><a href="#home">
+					<li><a href="#myhomepage">
 							<span class="glyphicon glyphicon-home"></span>  Home page</a></li>
-					<li><a href="#main">
+					<li><a href="#aboutapplication">
 							<span class="glyphicon glyphicon-list-alt"></span> Description</a></li> 
-					<li><a href="#palinfinder">
+					<li><a href="#palindromefinder">
 							<span class="glyphicon glyphicon-forward"></span> GoToApplication</a></li> 
 					</ul>		
 		</div>
@@ -33,6 +34,7 @@
 	</footer>
 	<div ng-view>
 	</div>
+</div>
 </div>
 </body>
 </html>
