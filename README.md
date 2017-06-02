@@ -5,7 +5,7 @@ This application is developed using AngularJs framework for routing and Html, cs
 
 Build and Run the project:
 
-To run this project you can directly download the war file in the repository. 
+To run this project you can directly download the CirrusPalindromeApplication.war file in the war file folder in the repository. 
 You can import the war file as web project into any of the IDE either eclipse or Netbeans. and execute it using any server.
 The link for the home page is "http://localhost:4000/CirrusPalindromeApplication/myhomepage.html#/myhomepage".
 once you open the page you can see two links in the header. one for the Description and other for the application.
